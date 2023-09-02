@@ -1,6 +1,7 @@
 # Order-management-dashboard
 
-This project involves the development of a full-stack order dashboard. The dashboard is designed to retrieve order and product data, display order summaries, and enable order modifications.
+This project involves the development of a full-stack order dashboard. The dashboard is designed to retrieve order and product data, display order summaries, and enable order modifications.\
+\
 ![Order dashboard page](orders-dashboard.png)
 ![Order datails page](order-details.png)
 
