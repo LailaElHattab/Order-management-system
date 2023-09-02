@@ -1,0 +1,27 @@
+.login {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: unset;
+    grid-gap: 1em;
+    gap: 1em;
+    margin-top: 65px;
+}
+
+.login-control {
+    width: 300px;
+}
+
+.login-button {
+    width: 300px;
+}
+
+.login-error {
+    color: red;
+}
+
+.botit {
+    font-size: 30px;
+    align-items: center;
+}

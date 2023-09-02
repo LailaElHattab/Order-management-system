@@ -1,0 +1,51 @@
+.title {
+    font-weight: bold;
+    position: relative;
+}
+
+.icon-container {
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    border-radius: 25%;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: 0;
+    color: var(--bg);
+    margin-top: -10px;
+    font-weight: bolder;
+}
+
+.CardGroup {
+    width: 1060px;
+    border-color: #E6EDFF;
+
+}
+
+.number {
+    font-weight: bold;
+}
+
+.card {
+    border-color: #E6EDFF;
+    font-family: 'Poppins';
+}
+
+.arrow {
+    color: #34C759;
+    font-weight: bolder;
+}
+
+
+.arrow-red {
+    color: red;
+    font-weight: bolder;
+}
+
+.subtitle {
+    color: #7C8DB5;
+    font-size: 14px;
+}

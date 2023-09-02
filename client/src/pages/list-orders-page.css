@@ -1,0 +1,76 @@
+.orders {
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+    justify-content: unset;
+    margin-right: 56px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: unset;
+    gap: 1em;
+    margin-bottom: 8px;
+}
+
+.amount-control {
+    max-width: 100px;
+}
+
+.horizontal-slider {
+    flex: 1;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 23px 23px 23px 23px;
+}
+
+.orders-card {
+    margin-top: 27px;
+    border-color: #E6EDFF;
+}
+
+/* styles.css */
+.card-title-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-icon {
+    margin-left: auto;
+    margin-right: 15px;
+    color: var(--bg);
+}
+
+.filter-icon:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+.filter-min {
+    font-size: 12px;
+    border-radius: 100px;
+}
+
+.filter-max {
+    font-size: 12px;
+}
+
+.filter-date {
+    font-size: 12px;
+}
+
+/* .rounded {
+    borderRadius: "300px";
+} */

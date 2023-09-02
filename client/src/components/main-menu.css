@@ -1,0 +1,41 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  margin-top: -10px;
+  margin-right: 56px;
+  margin-left: 11px;
+  font-family: 'Poppins';
+
+}
+
+.menu_item {
+  font-size: 28px;
+  margin-left: 290px;
+  margin-top: 50px;
+
+}
+
+.rightContent {
+  margin-left: auto;
+  margin-top: 50px;
+
+}
+
+.rightContent svg {
+  font-size: 24px;
+  margin-right: 20px;
+
+}
+
+.username {
+  font-size: 16px;
+}
+
+.image {
+  position: fixed;
+  width: 140px;
+  margin-left: 50px;
+}

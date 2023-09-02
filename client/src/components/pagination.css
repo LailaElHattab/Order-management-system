@@ -1,0 +1,38 @@
+.pg_flex_row {
+    display: flex;
+    flex-direction: row;
+    align-items: unset;
+    justify-content: unset;
+    grid-gap: 0.5em;
+    gap: 0.5em;
+}
+
+.paging {
+    padding: 1em;
+    width: 100%;
+    font-size: .9em;
+}
+
+.sizes {
+    flex: 1;
+}
+
+.pageBtn {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    font-weight: normal;
+    color: #374649;
+
+    svg path {
+        fill: #374649;
+    }
+}
+
+.pageBtn.active {
+    font-weight: 600;
+}
+
+.pageBtn:disabled svg path {
+    fill: #ced3d4;
+}

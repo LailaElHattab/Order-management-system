@@ -1,0 +1,94 @@
+.order-details {
+    margin-left: 42px;
+    margin-right: 56px;
+    margin-top: 30px;
+    width: 1060px;
+}
+
+.date {
+    color: rgb(143, 157, 171);
+    margin-bottom: 100px;
+}
+
+.order {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.divider {
+    border-top: 1px solid #999999;
+    /* Adjust the color as needed */
+    width: 25%;
+    /* To ensure the line spans the entire width */
+    margin: 10px 0;
+    /* Adjust spacing as needed */
+}
+
+.table {
+    padding: 20px 20px 20px 20px;
+    font-family: 'Poppins';
+}
+
+.productId {
+    color: rgb(143, 157, 171);
+    font-size: 14px;
+}
+
+.delete {
+    color: red;
+    font-size: 20px;
+}
+
+.delete:hover {
+    background-color: rgb(242, 242, 242);
+    font-size: 20px;
+}
+
+.quantity {
+    color: grey;
+}
+
+.quantity:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+.button-container {
+    display: flex;
+    margin-bottom: 13px;
+    margin-right: 20px;
+    justify-content: flex-end;
+    /* margin: 5px 5px 5px 5px; */
+}
+
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+    margin-left: auto;
+}
+
+.checkout div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.checkout .divider {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+
+.total {
+    font-weight: bold;
+}

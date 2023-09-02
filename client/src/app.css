@@ -1,0 +1,25 @@
+:root {
+    --bg: #EC1B41;
+    --primary: #DB7F8E;
+
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
+    /* Use the correct relative path */
+    font-weight: normal;
+    font-style: normal;
+}
